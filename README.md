@@ -1,5 +1,8 @@
 # Ryuuki's ESlint Config
 
+
+[![npm](https://img.shields.io/npm/v/eslint-config-ryuuki.svg)](https://www.npmjs.com/package/eslint-config-ryuuki)
+
 ## Description
 This config extend  airbnb's config with my personal preferences.
 
