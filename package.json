@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-ryuuki",
+  "version": "1.0.0",
+  "description": "Ryuuki's eslint config.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryuukibeat/eslint-config-ryuuki.git"
+  },
+  "keywords": ["eslint", "ryuuki", "config", "eslintconfig", "eslint-config"],
+  "author": "RyuukiBeat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryuukibeat/eslint-config-ryuuki/issues"
+  },
+  "homepage": "https://github.com/ryuukibeat/eslint-config-ryuuki#readme",
+  "dependencies": {
+    "eslint": ">=5.8.0",
+    "eslint-config-airbnb": ">=17.1.0",
+    "eslint-plugin-import": ">=2.14.0",
+    "eslint-plugin-jsx-a11y": ">=6.1.2",
+    "eslint-plugin-react": ">=7.11.1"
+  }
+}
