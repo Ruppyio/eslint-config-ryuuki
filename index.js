@@ -3,6 +3,8 @@ module.exports = {
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
     'no-console': 'off',
+    'object-curly-newline': ['error', { multiline: true }],
+    'arrow-parens': ['error', 'as-needed'],
   },
   env: {
     browser: true,
