@@ -2,7 +2,7 @@ module.exports = {
   extends: ['eslint-config-airbnb'].map(require.resolve),
   rules: {
     'no-console': 'off',
-    'func-names': ['error', 'as-needed'],
+    'func-names': ['warn', 'never'],
     'arrow-parens': ['error', 'as-needed'],
     'comma-dangle': ['error', 'always-multiline'],
     'space-before-function-paren': ['warn', 'never'],
