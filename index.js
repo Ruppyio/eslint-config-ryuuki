@@ -6,7 +6,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'comma-dangle': ['error', 'always-multiline'],
     'space-before-function-paren': ['warn', 'never'],
-    'no-underscore-dangle': ['error', { allow: ['_id'] }],
+    'no-underscore-dangle': ['error', { allow: ['_id', '_doc'] }],
     'object-curly-newline': ['error', { multiline: true }],
   },
   env: {
