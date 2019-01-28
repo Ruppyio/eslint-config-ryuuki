@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'consistent-return': 'off',
+    'function-paren-newline': 'off',
     'func-names': ['warn', 'never'],
     'implicit-arrow-linebreak': 'off',
     'arrow-parens': ['error', 'as-needed'],
