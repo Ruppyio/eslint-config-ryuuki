@@ -9,9 +9,16 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'operator-linebreak': ['error', 'after'],
     'comma-dangle': ['error', 'always-multiline'],
-    'space-before-function-paren': ['warn', 'never'],
     'object-curly-newline': ['error', { multiline: true }],
     'no-underscore-dangle': ['error', { allow: ['_id', '_doc'] }],
+    'space-before-function-paren': [
+      'warn',
+      {
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always',
+      },
+    ],
   },
   env: {
     browser: true,
