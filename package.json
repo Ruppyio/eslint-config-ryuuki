@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ryuuki",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Ryuuki's eslint config.",
   "main": "index.js",
   "scripts": {
