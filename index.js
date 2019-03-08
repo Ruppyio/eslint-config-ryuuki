@@ -3,13 +3,13 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'consistent-return': 'off',
+    'object-curly-newline': 'off',
     'function-paren-newline': 'off',
     'func-names': ['warn', 'never'],
     'implicit-arrow-linebreak': 'off',
     'arrow-parens': ['error', 'as-needed'],
     'operator-linebreak': ['error', 'after'],
     'comma-dangle': ['error', 'always-multiline'],
-    'object-curly-newline': ['error', { multiline: true }],
     'no-underscore-dangle': ['error', { allow: ['_id', '_doc'] }],
     'space-before-function-paren': [
       'warn',
