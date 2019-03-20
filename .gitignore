@@ -82,4 +82,4 @@ typings/
 !.vscode/extensions.json
 
 # Test
-test.js
+test/

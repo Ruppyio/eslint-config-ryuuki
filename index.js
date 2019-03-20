@@ -1,16 +1,24 @@
 module.exports = {
-  extends: ['eslint-config-airbnb'].map(require.resolve),
+  extends: [
+    'eslint-config-airbnb',
+    'eslint-config-prettier',
+    'eslint-config-prettier/@typescript-eslint', // Uses eslint-config-prettier to disable ESLint rules from @typescript-eslint/eslint-plugin that would conflict with prettier
+  ].map(require.resolve),
+  parserOptions: {
+    ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
+    sourceType: 'module', // Allows for the use of imports
+    ecmaFeatures: {
+      jsx: true, // Allows for the parsing of JSX
+    },
+  },
   rules: {
     'no-console': 'off',
     'consistent-return': 'off',
-    'object-curly-newline': 'off',
-    'function-paren-newline': 'off',
+    'no-underscore-dangle': 'off',
     'func-names': ['warn', 'never'],
     'implicit-arrow-linebreak': 'off',
     'arrow-parens': ['error', 'as-needed'],
     'operator-linebreak': ['error', 'after'],
-    'comma-dangle': ['error', 'always-multiline'],
-    'no-underscore-dangle': ['error', { allow: ['_id', '_doc'] }],
     'space-before-function-paren': [
       'warn',
       {
@@ -25,5 +33,9 @@ module.exports = {
     node: true,
     commonjs: true,
     es6: true,
+    jest: true,
+    mongo: true,
+    serviceworker: true,
+    worker: true,
   },
 };
