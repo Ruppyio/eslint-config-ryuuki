@@ -59,16 +59,5 @@ module.exports = {
     'consistent-return': 'off',
     'no-underscore-dangle': 'off',
     'func-names': ['warn', 'never'],
-    'implicit-arrow-linebreak': 'off',
-    'arrow-parens': ['error', 'as-needed'],
-    'operator-linebreak': ['error', 'after'],
-    'space-before-function-paren': [
-      'warn',
-      {
-        anonymous: 'never',
-        named: 'never',
-        asyncArrow: 'always',
-      },
-    ],
   },
 };
