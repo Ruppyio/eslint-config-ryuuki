@@ -40,6 +40,8 @@ module.exports = {
       'no-unused-vars': 'off',
 
       '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
+      '@typescript-eslint/explicit-function-return-type': 'off',
+      '@typescript-eslint/interface-name-prefix': 'off',
       '@typescript-eslint/no-array-constructor': 'warn',
       '@typescript-eslint/no-namespace': 'error',
       '@typescript-eslint/no-unused-vars': [
