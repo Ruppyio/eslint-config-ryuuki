@@ -24,25 +24,29 @@
   },
   "homepage": "https://github.com/ryuukibeat/eslint-config-ryuuki#readme",
   "peerDependencies": {
-    "eslint": ">=5.0.0",
-    "eslint-plugin-import": ">=2.0.0",
-    "eslint-plugin-jsx-a11y": ">=6.0.0",
-    "eslint-plugin-react": ">=7.0.0",
-    "typescript": ">=2.8.0"
+    "babel-eslint": "10.x",
+    "eslint": "5.x",
+    "eslint-config-react-app": "3.x",
+    "eslint-plugin-flowtype": "2.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x"
   },
   "devDependencies": {
-    "eslint": "^5.3.0",
-    "eslint-plugin-import": "^2.15.0",
-    "eslint-plugin-jsx-a11y": "^6.2.0",
-    "eslint-plugin-react": "^7.12.4",
-    "typescript": ">=2.8.0"
+    "babel-eslint": "10.x",
+    "eslint": "5.x",
+    "eslint-config-react-app": "3.x",
+    "eslint-plugin-flowtype": "2.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.4.2",
-    "@typescript-eslint/parser": "^1.4.2",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-plugin-prettier": "^3.0.1",
-    "prettier": "^1.16.4"
+    "@typescript-eslint/eslint-plugin": "1.x",
+    "@typescript-eslint/parser": "1.x",
+    "eslint-config-prettier": "4.x",
+    "eslint-plugin-prettier": "3.x",
+    "eslint-plugin-react-hooks": "1.x",
+    "prettier": "1.x"
   }
 }
