@@ -39,7 +39,7 @@ module.exports = {
       'no-array-constructor': 'off',
       'no-unused-vars': 'off',
 
-      '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
+      '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
       '@typescript-eslint/explicit-function-return-type': 'off',
       '@typescript-eslint/interface-name-prefix': 'off',
       '@typescript-eslint/no-array-constructor': 'warn',
