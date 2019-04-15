@@ -1,11 +1,12 @@
 module.exports = {
   root: true,
 
-  plugins: ['import', 'flowtype', 'jsx-a11y', 'react', 'react-hooks', 'prettier'],
+  plugins: ['import', 'flowtype', 'jsx-a11y', 'react', 'react-hooks'],
 
   extends: [
     'react-app',
-    'plugin:prettier/recommended',
+    'prettier',
+    // 'plugin:prettier/recommended',
     'plugin:@typescript-eslint/recommended',
     // 'plugin:import/typescript',
     'prettier/@typescript-eslint',
