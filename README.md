@@ -6,25 +6,31 @@
 
 ## Description
 
-This config extend airbnb's config with my personal preferences.
+This config extend react-app's config with my personal preferences.
 
 ## Usage
 
-Install with `npm install -D eslint-config-ryuuki` or `yarn add -D eslint-config-ryuuki`.
+1. a. Install with `npm install -D eslint-config-ryuuki` or `yarn add -D eslint-config-ryuuki` for use with [Create-React-App](https://github.com/facebook/create-react-app).
 
-Create `.eslintrc.yml` file:
+    b. (Outside CRA)
 
-```yaml
-extends: ryuuki
-```
+    ```bash
+    yarn add -D eslint-config-(ryuuki,react-app@3.x) babel-eslint@9.x eslint@5.x eslint-plugin-(flowtype@2.x,import@2.x,jsx-a11y@6.x,react@7.x) typescript@3.x
+    ```
 
-or `.eslintrc.json` file in root folder:
+2. Create `.eslintrc.yml` file:
 
-```json
-{
-  "extends": "ryuuki"
-}
-```
+    ```yaml
+    extends: ryuuki
+    ```
+
+    or `.eslintrc.json` file in root folder:
+
+    ```json
+    {
+      "extends": "ryuuki"
+    }
+    ```
 
 <!-- VARIABLES -->
 [npm-image]: https://img.shields.io/npm/v/eslint-config-ryuuki.svg
