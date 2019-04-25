@@ -8,7 +8,7 @@ module.exports = {
     'prettier',
     'plugin:prettier/recommended',
     'plugin:@typescript-eslint/recommended',
-    // 'plugin:import/typescript',
+    'plugin:import/typescript',
     'prettier/@typescript-eslint',
   ],
 
@@ -22,18 +22,7 @@ module.exports = {
 
   overrides: {
     files: ['**/*.ts', '**/*.tsx'],
-    parser: '@typescript-eslint/parser',
-    parserOptions: {
-      ecmaVersion: 2018,
-      sourceType: 'module',
-      ecmaFeatures: {
-        jsx: true,
-      },
 
-      // typescript-eslint specific options
-      warnOnUnsupportedTypeScriptVersion: true,
-    },
-    plugins: ['@typescript-eslint'],
     rules: {
       camelcase: 'off',
       indent: 'off',
