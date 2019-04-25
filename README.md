@@ -15,7 +15,7 @@ This config extend react-app's config with my personal preferences.
     b. (Outside CRA)
 
     ```bash
-    yarn add -D eslint-config-(ryuuki,react-app@3.x) @typescript-eslint/eslint-plugin@1.x @typescript-eslint/eslint-plugin@1.x babel-eslint@9.x eslint@5.x eslint-plugin-(flowtype@2.x,import@2.x,jsx-a11y@6.x,react@7.x,react-hooks@1.x) typescript@3.x
+    yarn add -D eslint-config-(ryuuki,react-app@3.x) @typescript-eslint/(eslint-plugin@1.x,parser@1.x) babel-eslint@9.x eslint@5.x eslint-plugin-(flowtype@2.x,import@2.x,jsx-a11y@6.x,react@7.x,react-hooks@1.x) typescript@3.x
     ```
 
 2. Create `.eslintrc.yml` file:
