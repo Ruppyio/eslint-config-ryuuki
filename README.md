@@ -10,12 +10,10 @@ This config extend react-app's config with my personal preferences.
 
 ## Usage
 
-1. a. Install with `npm install -D eslint-config-ryuuki` or `yarn add -D eslint-config-ryuuki` for use with [Create-React-App](https://github.com/facebook/create-react-app).
-
-    b. (Outside CRA)
+1. Install with commands:
 
     ```bash
-    yarn add -D eslint-config-(ryuuki,react-app@3.x) @typescript-eslint/(eslint-plugin@1.x,parser@1.x) babel-eslint@9.x eslint@5.x eslint-plugin-(flowtype@2.x,import@2.x,jsx-a11y@6.x,react@7.x,react-hooks@1.x) typescript@3.x
+    yarn add -D eslint-config-ryuuki eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser babel-eslint eslint eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier
     ```
 
 2. Create `.eslintrc.yml` file:
@@ -24,12 +22,12 @@ This config extend react-app's config with my personal preferences.
     extends: ryuuki
     ```
 
-    or `.eslintrc.json` file in root folder:
+    or `.eslintrc.js` file in root folder:
 
-    ```json
-    {
-      "extends": "ryuuki"
-    }
+    ```js
+    module.exports = {
+      extends: ['ryuuki'],
+    };
     ```
 
 <!-- VARIABLES -->
