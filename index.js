@@ -21,6 +21,15 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'func-names': ['warn', 'never'],
     'no-mixed-operators': 'off',
+
+    'react/self-closing-comp': [
+      'warn',
+      {
+        component: true,
+        html: true,
+      },
+    ],
+
     'prettier/prettier': 'error',
   },
 };
