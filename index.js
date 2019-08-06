@@ -22,6 +22,8 @@ module.exports = {
     'func-names': ['warn', 'never'],
     'no-mixed-operators': 'off',
 
+    'jsx-a11y/anchor-is-valid': 'off',
+
     'react/self-closing-comp': [
       'warn',
       {
