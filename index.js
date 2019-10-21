@@ -1,8 +1,7 @@
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
   extends: [
-    './react-app',
+    'eslint-config-react-app',
     'eslint-config-prettier',
     'eslint-config-prettier/flowtype',
     'eslint-config-prettier/react',

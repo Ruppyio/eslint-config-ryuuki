@@ -13,8 +13,14 @@ This config extend react-app's config with my personal preferences.
 1. Install with commands:
 
     ```bash
-    yarn add -D eslint-config-ryuuki eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser babel-eslint eslint eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier
+    yarn add -D eslint-config-ryuuki @typescript-eslint/eslint-plugin@2.x @typescript-eslint/parser@2.x babel-eslint@10.x eslint@6.x eslint-config-prettier@6.x eslint-plugin-flowtype@3.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-prettier@3.x eslint-plugin-react@7.x eslint-plugin-react-hooks@1.x prettier@1.x
     ```
+ 
+   optionally add typescript as devDependencies if you use typescript as language:
+
+   ```bash
+   yarn add -D typescript
+   ```
 
 2. Create `.eslintrc.yml` file in root directory:
 
