@@ -35,7 +35,7 @@
     "eslint-plugin-prettier": "3.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "1.x || 2.x",
-    "prettier": "1.x"
+    "prettier": "2.x"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "2.x",
@@ -49,7 +49,7 @@
     "eslint-plugin-prettier": "3.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "2.x",
-    "prettier": "1.x"
+    "prettier": "2.x"
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.9",
