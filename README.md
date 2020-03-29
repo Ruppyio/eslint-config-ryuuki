@@ -91,4 +91,4 @@ This config extend react-app's config with my personal preferences.
 [npm-image]: https://img.shields.io/npm/v/eslint-config-ryuuki.svg
 [npm-url]: https://www.npmjs.com/package/eslint-config-ryuuki
 [license-image]: https://img.shields.io/npm/l/eslint-config-ryuuki.svg?registry_uri=https%3A%2F%2Fregistry.npmjs.com
-[license-url]: https://github.com/ryuukibeat/eslint-config-ryuuki/blob/master/LICENSE
+[license-url]: https://github.com/Ruppyio/eslint-config-ryuuki/blob/master/LICENSE

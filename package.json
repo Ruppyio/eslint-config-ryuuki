@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryuukibeat/eslint-config-ryuuki.git"
+    "url": "https://github.com/Ruppyio/eslint-config-ryuuki.git"
   },
   "keywords": [
     "eslint",
@@ -17,12 +17,12 @@
     "eslintconfig",
     "eslint-config"
   ],
-  "author": "RyuukiBeat",
+  "author": "Ruppy.io",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryuukibeat/eslint-config-ryuuki/issues"
+    "url": "https://github.com/Ruppyio/eslint-config-ryuuki/issues"
   },
-  "homepage": "https://github.com/ryuukibeat/eslint-config-ryuuki#readme",
+  "homepage": "https://github.com/Ruppyio/eslint-config-ryuuki#readme",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "2.x",
     "@typescript-eslint/parser": "2.x",
@@ -54,5 +54,8 @@
   "dependencies": {
     "confusing-browser-globals": "^1.0.9",
     "eslint-config-react-app": "^5.0.2"
+  },
+  "resolutions": {
+    "minimist": "^1.2.2"
   }
 }
