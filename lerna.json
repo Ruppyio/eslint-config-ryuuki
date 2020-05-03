@@ -5,6 +5,9 @@
   "version": "independent",
   "command": {
     "publish": {
+      "conventionalCommits": true,
+      "message": "chore(publish): %s",
+      "npmClient": "npm",
       "registry": "https://npm.pkg.github.com"
     }
   }
