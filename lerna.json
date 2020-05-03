@@ -5,9 +5,9 @@
   "version": "independent",
   "command": {
     "publish": {
+      "allowBranch": "master",
       "conventionalCommits": true,
-      "npmClient": "npm",
-      "registry": "https://npm.pkg.github.com"
+      "registry": "https://registry.npmjs.org/"
     }
   }
 }
