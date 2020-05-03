@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./index.js'],
+  extends: ['./packages/eslint-config-ruppy-base/index.js'],
 };

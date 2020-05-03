@@ -1,61 +1,45 @@
 {
-  "name": "eslint-config-ryuuki",
-  "version": "2.6.1",
-  "description": "Ryuuki's personal eslint config (based on eslint-config-react-app).",
-  "main": "index.js",
+  "name": "eslint-configs",
+  "private": true,
+  "description": "Ruppy's eslint configs.",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "test": "eslint ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Ruppyio/eslint-config-ryuuki.git"
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "lerna:publish": "lerna publish",
+    "lint": "eslint --fix-dry-run --color --cache .",
+    "prettier": "prettier --write ."
   },
   "keywords": [
     "eslint",
-    "ryuuki",
+    "ruppy",
     "config",
     "eslintconfig",
     "eslint-config"
   ],
-  "author": "Ruppy.io",
+  "author": "Ruppy.io (https://ruppy.io)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Ruppyio/eslint-config-ryuuki/issues"
-  },
-  "homepage": "https://github.com/Ruppyio/eslint-config-ryuuki#readme",
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "2.x",
-    "@typescript-eslint/parser": "2.x",
-    "babel-eslint": "10.x",
-    "eslint": "6.x",
-    "eslint-config-prettier": "6.x",
-    "eslint-plugin-flowtype": "3.x || 4.x",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-prettier": "3.x",
-    "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "1.x || 2.x",
-    "prettier": "2.x"
-  },
+  "repository": "https://github.com/Ruppyio/eslint-configs.git",
+  "bugs": "https://github.com/Ruppyio/eslint-configs/issues",
+  "homepage": "https://github.com/Ruppyio/eslint-configs#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "2.x",
-    "@typescript-eslint/parser": "2.x",
-    "babel-eslint": "10.x",
-    "eslint": "6.x",
-    "eslint-config-prettier": "6.x",
-    "eslint-plugin-flowtype": "4.x",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-prettier": "3.x",
-    "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "2.x",
-    "prettier": "2.x"
+    "eslint": "^6.8.0",
+    "husky": "^4.2.5",
+    "lerna": "^3.20.2",
+    "lint-staged": "^10.2.2",
+    "prettier": "^2.0.5"
   },
-  "dependencies": {
-    "confusing-browser-globals": "^1.0.9",
-    "eslint-config-react-app": "^5.0.2"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
-  "resolutions": {
-    "minimist": "^1.2.2"
+  "lint-staged": {
+    "*.js": [
+      "eslint --cache --fix-dry-run",
+      "prettier --check"
+    ],
+    "*.{json,md}": "prettier --check"
   }
 }
