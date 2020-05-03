@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ruppy-base",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "Ruppy's base eslint config.",
   "main": "index.js",
   "repository": "https://github.com/Ruppyio/eslint-configs/blob/master/packages/eslint-config-ruppy-base",
@@ -19,6 +19,5 @@
   "dependencies": {
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.11.0"
-  },
-  "gitHead": "33b079231ecdc9015470c67a309a3ac6a5b03ff0"
+  }
 }
