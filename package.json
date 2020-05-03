@@ -38,8 +38,8 @@
   "lint-staged": {
     "*.js": [
       "eslint --cache --fix-dry-run",
-      "prettier --check"
+      "prettier --write"
     ],
-    "*.{json,md}": "prettier --check"
+    "*.{json,md}": "prettier --write"
   }
 }
