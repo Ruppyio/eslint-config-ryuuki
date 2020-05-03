@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ruppy-base",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Ruppy's base eslint config.",
   "main": "index.js",
   "repository": "https://github.com/Ruppyio/eslint-configs/blob/master/packages/eslint-config-ruppy-base",
